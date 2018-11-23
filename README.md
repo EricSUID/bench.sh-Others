@@ -23,6 +23,8 @@ https://www.oldking.net/599.html
 另加一个测试脚本, 这个脚本对全球各地区都有比较详细的网络测试
 curl -LsO git.io/bench.sh; chmod +x bench.sh && ./bench.sh -a share
 
+
 还有一个
 中文版: wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench-CN.sh && bash ZBench-CN.sh
+
 英文版: wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && bash ZBench.sh
