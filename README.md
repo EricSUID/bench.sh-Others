@@ -18,17 +18,29 @@ wget git.io/superbench.sh; chmod +x superbench.sh
 ./superbench.sh share
 ```
 
+---
+
 怀恋上一版的请使用：
+```shell
 wget -qO- git.io/superbench_old.sh | bash
+```
 
 作者网站
 https://www.oldking.net/599.html
 
 另加一个测试脚本, 这个脚本对全球各地区都有比较详细的网络测试
+```shell
 curl -LsO git.io/bench.sh; chmod +x bench.sh && ./bench.sh -a share
+```
 
+---
 
 还有一个
-中文版: wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench-CN.sh && bash ZBench-CN.sh
-
-英文版: wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && bash ZBench.sh
+- 中文版: 
+```shell
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench-CN.sh && bash ZBench-CN.sh
+```
+- 英文版: 
+```shell
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && bash ZBench.sh
+```
