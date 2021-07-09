@@ -8,11 +8,15 @@ wget -qO- git.io/superbench.sh | bash
 
 使用参数的方法：
 这个脚本主要测试中国网络运营商的上传和下载速度
+```shell
 wget git.io/superbench.sh; chmod +x superbench.sh
+```
+```shell
 ./superbench.sh info
 ./superbench.sh io
 ./superbench.sh speed
 ./superbench.sh share
+```
 
 怀恋上一版的请使用：
 wget -qO- git.io/superbench_old.sh | bash
